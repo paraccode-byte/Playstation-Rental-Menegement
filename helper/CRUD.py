@@ -2,7 +2,6 @@ import json
 
 name_db = "DbUser.json"
 
-
 def read_all():
     with open(name_db, "r", encoding="utf-8") as file:
         return json.load(file)
@@ -66,6 +65,4 @@ def delete(id):
     return False
 
 
-crud = {
-    delete: delete,
-}
+
