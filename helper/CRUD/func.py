@@ -1,6 +1,6 @@
 import json
 
-name_db = "DbUser.json"
+name_db = "./data/DbUser.json"
 
 def read_all():
     with open(name_db, "r", encoding="utf-8") as file:
@@ -64,5 +64,12 @@ def delete(id):
 
     return False
 
+def crud_list():
+    with open('./data/CRUD_list.txt', 'r', encoding='utf-8') as file:
+        return file.read()
+
+def update_prop_list():
+    with open('./data/prop.update.txt', 'r', encoding='utf-8') as file:
+        return file.read()
 
 

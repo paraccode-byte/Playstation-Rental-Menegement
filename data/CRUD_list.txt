@@ -1,0 +1,9 @@
+----- List function -----
+1. ADD    ( TAMBAH USER )
+2. UPDATE ( EDIT USER   )
+3. DELETE ( HAPUS USER  )
+4. EXIT   ( BACK        )
+-------------------------
+EXAMPLE: 2
+
+Select function: 

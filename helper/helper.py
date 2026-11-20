@@ -8,3 +8,4 @@ def to_int(n):
         return int(n)
     except ValueError:
         return False
+

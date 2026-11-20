@@ -1,0 +1,7 @@
+----- List function -----
+1. NAME   
+2. DURATION 
+-------------------------
+EXAMPLE: 2
+
+Select function: 
